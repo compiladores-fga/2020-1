@@ -53,20 +53,22 @@ Horário das aulas e atendimento
 ===============================
 
 Aulas teóricas e de exercícios: segundas e sextas-feiras às 14h
-Atendimento e monitoria: a definir
+Atendimento: realizado de forma assíncrona no grupo de Telegram da disciplina
 
 
 Informações importantes
 ========================
 
-Este curso utiliza GitHub + Github Classroom e o Google classroom para gerenciar o curso. A comunicação com a 
-turma é feita através do Google Classroom ou por issues no repositório do Github. Habilite a funcionalidade 
+Este curso utiliza Telegram + GitHub + Microsoft Teams para gerenciar o curso. A comunicação com a 
+turma é feita através do Telegram e os encontros presenciais no Microsoft Teams. Habilite a funcionalidade 
 "Watch" no repositório para receber notificações sobre atualizações.
 
-Google Classroom:
-    http://classroom.google.com/ - Código de inscrição: idjjmmx
 Github:
     https://github.com/compiladores-fga/2020-1
+Telegram:
+    (oculto, enviado por e-mail)
+Teams:
+    (oculto, disponível no grupo de Telegram)
 
 
 Critérios de avaliação
@@ -91,34 +93,11 @@ confirmadas.
 é feita segundo as regras abaixo:
 
 * **SR:** Reprovação por faltas 
-* **II:** Falhou em mais de 50% das competências básicas
-* **MI:** Falhou em menos de 50% das competências básicas 
-* **MM:** Comprovou todas as competências básicas da disciplina
-* **MS:** Comprovou todas competências básicas e 40% das competências avançadas
-* **SS:** Comprovou todas competências básicas e 75% das competências avançadas
-
-
-Avaliação competititva
-----------------------
-
-Apesar da forma usual de avaliação ser baseada em habilidades e competências, existe uma forma alternativa de atingir
-uma menção mínima baseada em um sistema de competição. Várias das atividades para comprovação de competências serão
-executadas em um formato competitivo. Estas atividades serão pontuadas em um formato de "pontos corridos", onde cada
-atividade possui uma pontuação máxima que depende do posicionamento de cada aluno (ou grupo de alunos) na resolução 
-da atividade. As respostas são ordenadas por velocidade de entrega, onde apenas as submissões corretas serão 
-consideradas.
-
-O posicionamento de cada aluno no ranking garante uma *menção mínima*. Lembre-se que o critério de avaliação principal
-é baseado em competências e é como a maior parte dos alunos será avaliada. Temos um número de menções alocadas pelo
-critério competitivo:
-
-* **SS:** 1o ao 7o lugares
-* **MS:** 8o ao 18o lugares 
-* **MM:** 19o ao 35o lugares
-
-A maior parte das atividades de avaliação fornecerá pontos tanto pelo sistema compeetitivo quanto pelo de habilidades
-e competências. O aluno poderá pontuar pelos dois critérios e inclusive o resultado das avaliações competitivas pode
-servir como comprovação de competências.
+* **II:** Comprovou menos de 16 competências básicas.
+* **MI:** Comprovou entre 16 e 27 das competências básicas.
+* **MM:** Comprovou pelo menos 28 das competências básicas.
+* **MS:** Comprovou todas 37 competências básicas.
+* **SS:** Comprovou todas competências básicas e 7 competências avançadas.
 
 
 Código de ética e conduta

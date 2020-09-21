@@ -1,50 +1,59 @@
-Start: 2020-03-09
-End: 2020-07-06
+Start: 2020-08-17
+End: 2020-12-18
 Weekdays: Mon, Fri
 Skip: 
-- 2020-04-10: *Feriado: Paixão de Cristo (Opcional)* 
-- 2020-04-20: *Feriado: Tiradentes*
-- 2020-05-01: *Feriado: Dia do trabalho*
-- 2020-06-12: *Feriado: Corpus Cristi (Opcional)*
+- 2020-09-07: *Feriado: Independência* 
+- 2020-10-12: *Feriado: Nossa Senhora*
+- 2020-11-02: *Feriado: Finados*
+- 2020-11-15: *Feriado: Proclamação da República*
 
 ----------------------------------------------------------
 Início das aulas – Apresentação do curso                  
 
-* Estrutura de linguagens naturais                        
-* Linguagens artificiais                                  
-* Linguagens de programação
+* Linguagens e tecnologias adotadas
+* Métodos de avaliação
+* Materiais suplementares
 ----------------------------------------------------------
-Introdução ao Python                                       
+Introdução ao Python                                    
 
 * Variaveis e tipos básicos
 * Comandos básicos (if/for/while/def)
-* Ferramentas de programação
-* REPL
+* Jupyter e Google Colab
+* Check.io
 ----------------------------------------------------------
-Estruturas de dados em Python                                       
+Tipos de dados I                                       
 
+* Números e booleanos
 * Strings
+----------------------------------------------------------
+Tipos de dados II                                       
+
 * Listas e sequências
 * Dicionários
 ----------------------------------------------------------
-Funções  
+Funções I  
+
+* Definindo funções
+* Argumentos opcionais
+* Funções de segunda ordem
+----------------------------------------------------------
+Funções II  
 
 * Funções variádicas
-* Lambdas e funções de segunda ordem     
-* Closures e fábricas de funções
-* Recursão
+* Criando funções dentro de funções
+* Decoradores
+----------------------------------------------------------
+Classes                                      
+
+* Criando classes
+* Herança simples
+* Métodos especiais
 ----------------------------------------------------------
 Linguagens de programação                                       
 
 * História das linguagens de programação                               
 * Paradigmas de programação     
 * Famílias de sintaxe
-----------------------------------------------------------
-Orientação a objetos     
-
-* Definindo classes 
-* Métodos mágicos     
-* Herança e reaproveitamento de código
 ----------------------------------------------------------
 Lispy                                                     
 
@@ -84,7 +93,7 @@ Análise léxica
 ----------------------------------------------------------
 Léxico de linguagens de programação                       
                                                           
-* Exemplos em Python, Scheme e linguagens familiares                             
+* Exemplos em Python, Scheme e outras linguagens                             
 * Definição de tokens                                     
 * Precedência de expressões regulares no tokenizador      
 ----------------------------------------------------------

@@ -1,190 +1,197 @@
 +--------+-------+--------------------------------------------------------+
 | Semana | Dia   | Atividade                                              |
 +========+=======+========================================================+
-|    1   | 09/03 | Início das aulas – Apresentação do curso               |
+|    1   | 17/08 | Início das aulas – Apresentação do curso               |
 |        |       |                                                        |
-|        |       | * Estrutura de linguagens naturais                     |
-|        |       | * Linguagens artificiais                               |
-|        |       | * Linguagens de programação                            |
+|        |       | * Linguagens e tecnologias adotadas                    |
+|        |       | * Métodos de avaliação                                 |
+|        |       | * Materiais suplementares                              |
 |        +-------+--------------------------------------------------------+
-|        | 13/03 | Introdução ao Python                                   |
+|        | 21/08 | Introdução ao Python                                   |
 |        |       |                                                        |
 |        |       | * Variaveis e tipos básicos                            |
 |        |       | * Comandos básicos (if/for/while/def)                  |
-|        |       | * Ferramentas de programação                           |
-|        |       | * REPL                                                 |
+|        |       | * Jupyter e Google Colab                               |
+|        |       | * Check.io                                             |
 +--------+-------+--------------------------------------------------------+
-|    2   | 16/03 | Estruturas de dados em Python                          |
+|    2   | 24/08 | Tipos de dados I                                       |
 |        |       |                                                        |
+|        |       | * Números e booleanos                                  |
 |        |       | * Strings                                              |
+|        +-------+--------------------------------------------------------+
+|        | 28/08 | Tipos de dados II                                      |
+|        |       |                                                        |
 |        |       | * Listas e sequências                                  |
 |        |       | * Dicionários                                          |
++--------+-------+--------------------------------------------------------+
+|    3   | 31/08 | Funções I                                              |
+|        |       |                                                        |
+|        |       | * Definindo funções                                    |
+|        |       | * Argumentos opcionais                                 |
+|        |       | * Funções de segunda ordem                             |
 |        +-------+--------------------------------------------------------+
-|        | 20/03 | Funções                                                |
+|        | 04/09 | Funções II                                             |
 |        |       |                                                        |
 |        |       | * Funções variádicas                                   |
-|        |       | * Lambdas e funções de segunda ordem                   |
-|        |       | * Closures e fábricas de funções                       |
-|        |       | * Recursão                                             |
+|        |       | * Criando funções dentro de funções                    |
+|        |       | * Decoradores                                          |
 +--------+-------+--------------------------------------------------------+
-|    3   | 23/03 | Linguagens de programação                              |
+|    4   | 07/09 | *Feriado: Independência*                               |
+|        +-------+--------------------------------------------------------+
+|        | 11/09 | Classes                                                |
+|        |       |                                                        |
+|        |       | * Criando classes                                      |
+|        |       | * Herança simples                                      |
+|        |       | * Métodos especiais                                    |
++--------+-------+--------------------------------------------------------+
+|    5   | 14/09 | Linguagens de programação                              |
 |        |       |                                                        |
 |        |       | * História das linguagens de programação               |
 |        |       | * Paradigmas de programação                            |
 |        |       | * Famílias de sintaxe                                  |
 |        +-------+--------------------------------------------------------+
-|        | 27/03 | Orientação a objetos                                   |
-|        |       |                                                        |
-|        |       | * Definindo classes                                    |
-|        |       | * Métodos mágicos                                      |
-|        |       | * Herança e reaproveitamento de código                 |
-+--------+-------+--------------------------------------------------------+
-|    4   | 30/03 | Lispy                                                  |
+|        | 18/09 | Lispy                                                  |
 |        |       |                                                        |
 |        |       | * Introdução ao Scheme (http://norvig.com/lispy.html)  |
 |        |       | * Etapas da compilação                                 |
 |        |       | * Árvore sintática                                     |
-|        +-------+--------------------------------------------------------+
-|        | 03/04 | Interpretador de Scheme                                |
++--------+-------+--------------------------------------------------------+
+|    6   | 21/09 | Interpretador de Scheme                                |
 |        |       |                                                        |
 |        |       | * Analisador sintático completo                        |
 |        |       | * Ambiente de execução                                 |
 |        |       | * Valores básicos e chamada de funções                 |
-+--------+-------+--------------------------------------------------------+
-|    5   | 06/04 | Interpretando Scheme                                   |
+|        +-------+--------------------------------------------------------+
+|        | 25/09 | Interpretando Scheme                                   |
 |        |       |                                                        |
 |        |       | * Formas especiais da linguagem                        |
 |        |       | * "Açúcares" sintáticos                                |
 |        |       | * Criando funções                                      |
-|        +-------+--------------------------------------------------------+
-|        | 10/04 | *Feriado: Paixão de Cristo (Opcional)*                 |
 +--------+-------+--------------------------------------------------------+
-|    6   | 13/04 | Expressões regulares                                   |
+|    7   | 28/09 | Expressões regulares                                   |
 |        |       |                                                        |
 |        |       | * Ortografia e léxico de uma linguagem                 |
 |        |       | * Linguagens regulares                                 |
 |        |       | * Expressões regulares em Python                       |
 |        +-------+--------------------------------------------------------+
-|        | 17/04 | Laboratório de regex: chatbot                          |
+|        | 02/10 | Laboratório de regex: chatbot                          |
 |        |       |                                                        |
 |        |       | * Detecção de padrões                                  |
 |        |       | * Resposta a padrões                                   |
 |        |       | * Usos de expressões regulares e API Python            |
 +--------+-------+--------------------------------------------------------+
-|    7   | 20/04 | *Feriado: Tiradentes*                                  |
-|        +-------+--------------------------------------------------------+
-|        | 24/04 | Análise léxica                                         |
+|    8   | 05/10 | Análise léxica                                         |
 |        |       |                                                        |
 |        |       | * Tokens                                               |
 |        |       | * Implementando um analizador léxico                   |
 |        |       | * Analizador léxico                                    |
-+--------+-------+--------------------------------------------------------+
-|    8   | 27/04 | Léxico de linguagens de programação                    |
+|        +-------+--------------------------------------------------------+
+|        | 09/10 | Léxico de linguagens de programação                    |
 |        |       |                                                        |
-|        |       | * Exemplos em Python, Scheme e linguagens familiares   |
+|        |       | * Exemplos em Python, Scheme e outras linguagens       |
 |        |       | * Definição de tokens                                  |
 |        |       | * Precedência de expressões regulares no tokenizador   |
-|        +-------+--------------------------------------------------------+
-|        | 01/05 | *Feriado: Dia do trabalho*                             |
 +--------+-------+--------------------------------------------------------+
-|    9   | 04/05 | Análise sintática                                      |
+|    9   | 12/10 | *Feriado: Nossa Senhora*                               |
+|        +-------+--------------------------------------------------------+
+|        | 16/10 | Análise sintática                                      |
 |        |       |                                                        |
 |        |       | * Limites de expressões regulares                      |
 |        |       | * Gramática                                            |
 |        |       | * Especificação de regras gramaticais                  |
 |        |       | * Sintaxe vs semântica                                 |
-|        +-------+--------------------------------------------------------+
-|        | 08/05 | Laboratório de análise sintática: Gerador de lero lero |
++--------+-------+--------------------------------------------------------+
+|   10   | 19/10 | Laboratório de análise sintática: Gerador de lero lero |
 |        |       |                                                        |
 |        |       | * Formalização de uma gramática                        |
 |        |       | * Produções válidas                                    |
 |        |       | * Gerador de textos aleatórios                         |
-+--------+-------+--------------------------------------------------------+
-|   10   | 11/05 | Gramáticas livres de contexto                          |
+|        +-------+--------------------------------------------------------+
+|        | 23/10 | Gramáticas livres de contexto                          |
 |        |       |                                                        |
 |        |       | * Regras de produção                                   |
 |        |       | * Lark                                                 |
 |        |       | * Calculadora                                          |
-|        +-------+--------------------------------------------------------+
-|        | 15/05 | Laboratório: JSON                                      |
++--------+-------+--------------------------------------------------------+
+|   11   | 26/10 | Laboratório: JSON                                      |
 |        |       |                                                        |
 |        |       | * Gramática como autômato                              |
 |        |       | * Separação entre a análise léxica e sintática         |
 |        |       | * Implementação do JSON                                |
-+--------+-------+--------------------------------------------------------+
-|   11   | 18/05 | Árvores sintáticas e representação de código           |
+|        +-------+--------------------------------------------------------+
+|        | 30/10 | Árvores sintáticas e representação de código           |
 |        |       |                                                        |
 |        |       | * Árvores concretas e abstratas                        |
 |        |       | * *S-expressions*                                      |
 |        |       | * Classes e *Union Types*                              |
++--------+-------+--------------------------------------------------------+
+|   12   | 02/11 | *Feriado: Finados*                                     |
 |        +-------+--------------------------------------------------------+
-|        | 22/05 | Laboratório: Calculadora avançada                      |
+|        | 06/11 | Laboratório: Calculadora avançada                      |
 |        |       |                                                        |
 |        |       | * Operadores e expressões                              |
 |        |       | * Representação intermediária                          |
 |        |       | * Precedência                                          |
 |        |       | * Análise semântica                                    |
 +--------+-------+--------------------------------------------------------+
-|   12   | 25/05 | Gramática do Python                                    |
+|   13   | 09/11 | Gramática do Python                                    |
 |        |       |                                                        |
 |        |       | * Arquivo de gramática                                 |
 |        |       | * Árvore sintática de um código “vivo”                 |
 |        |       | * Meta programação                                     |
 |        +-------+--------------------------------------------------------+
-|        | 29/05 | Emissão de código no Ox                                |
+|        | 13/11 | Emissão de código no Ox                                |
 |        |       |                                                        |
 |        |       | * Árvores sintáticas de Python                         |
 |        |       | * Criando árvores sintáticas manualmente               |
 |        |       | * Objetos proxy                                        |
 +--------+-------+--------------------------------------------------------+
-|   13   | 01/06 | Autômatos                                              |
+|   14   | 16/11 | Autômatos                                              |
 |        |       |                                                        |
 |        |       | * Introdução a autômatos                               |
 |        |       | * Autômato determinístico finito                       |
 |        |       | * Autômato não-determinístico                          |
 |        +-------+--------------------------------------------------------+
-|        | 05/06 | Construção de Thompson                                 |
+|        | 20/11 | Construção de Thompson                                 |
 |        |       |                                                        |
 |        |       | * Autômatos para linguagens regulares                  |
 |        |       | * Regras básicas e regras de composição                |
 +--------+-------+--------------------------------------------------------+
-|   14   | 08/06 | Hierarquia de Chomsky                                  |
+|   15   | 23/11 | Hierarquia de Chomsky                                  |
 |        |       |                                                        |
 |        |       | * Modelos de computação                                |
 |        |       | * Tipos de autômatos                                   |
 |        |       | * Hierarquia de linguagens formais                     |
 |        |       | * Máquina de Turing                                    |
 |        +-------+--------------------------------------------------------+
-|        | 12/06 | *Feriado: Corpus Cristi (Opcional)*                    |
-+--------+-------+--------------------------------------------------------+
-|   15   | 15/06 | Máquinas virtuais                                      |
+|        | 27/11 | Máquinas virtuais                                      |
 |        |       |                                                        |
 |        |       | * Objetivos de compilação                              |
 |        |       | * Máquina virtual Python                               |
 |        |       | * Inspeção de Bytcodes                                 |
 |        |       | * Máquina de pilha                                     |
-|        +-------+--------------------------------------------------------+
-|        | 19/06 | Descida recursiva                                      |
++--------+-------+--------------------------------------------------------+
+|   16   | 30/11 | Descida recursiva                                      |
 |        |       |                                                        |
 |        |       | * Tipos atômicos (numerais, strings, etc)              |
 |        |       | * Símbolos                                             |
 |        |       | * Operadores e delimitadores                           |
-+--------+-------+--------------------------------------------------------+
-|   16   | 22/06 | Parser LL(1)                                           |
+|        +-------+--------------------------------------------------------+
+|        | 04/12 | Parser LL(1)                                           |
 |        |       |                                                        |
 |        |       | * Construções FIRST e FOLLOW                           |
 |        |       | * Gramáticas sem epsilon                               |
 |        |       | * Construção da tabela de transição                    |
 |        |       | * Conflitos na construção                              |
-|        +-------+--------------------------------------------------------+
-|        | 26/06 | Parser LL(1)                                           |
++--------+-------+--------------------------------------------------------+
+|   17   | 07/12 | Parser LL(1)                                           |
 |        |       |                                                        |
 |        |       | * Gramaticas com epsilon                               |
 |        |       | * Tradução para Python                                 |
-+--------+-------+--------------------------------------------------------+
-|   17   | 29/06 | Prova Final                                            |
 |        +-------+--------------------------------------------------------+
-|        | 03/07 | *Não haverá aula*                                      |
+|        | 11/12 | Prova Final                                            |
 +--------+-------+--------------------------------------------------------+
-|   18   | 06/07 | Revisão de notas                                       |
+|   18   | 14/12 | *Não haverá aula*                                      |
+|        +-------+--------------------------------------------------------+
+|        | 18/12 | Revisão de notas                                       |
 +--------+-------+--------------------------------------------------------+
