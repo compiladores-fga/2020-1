@@ -1,194 +1,194 @@
 Start: 2020-08-17
 End: 2020-12-18
 Weekdays: Mon, Fri
-Skip: 
-- 2020-09-07: *Feriado: Independência* 
+Skip:
+- 2020-09-07: *Feriado: Independência*
 - 2020-10-12: *Feriado: Nossa Senhora*
 - 2020-11-02: *Feriado: Finados*
 - 2020-11-15: *Feriado: Proclamação da República*
 
 ----------------------------------------------------------
-Início das aulas – Apresentação do curso                  
+Início das aulas – Apresentação do curso
 
 * Linguagens e tecnologias adotadas
 * Métodos de avaliação
 * Materiais suplementares
 ----------------------------------------------------------
-Introdução ao Python                                    
+Introdução ao Python
 
 * Variaveis e tipos básicos
 * Comandos básicos (if/for/while/def)
 * Jupyter e Google Colab
 * Check.io
 ----------------------------------------------------------
-Tipos de dados I                                       
+Tipos de dados I
 
 * Números e booleanos
 * Strings
 ----------------------------------------------------------
-Tipos de dados II                                       
+Tipos de dados II
 
 * Listas e sequências
 * Dicionários
 ----------------------------------------------------------
-Funções I  
+Funções I
 
 * Definindo funções
 * Argumentos opcionais
 * Funções de segunda ordem
 ----------------------------------------------------------
-Funções II  
+Funções II
 
 * Funções variádicas
 * Criando funções dentro de funções
 * Decoradores
 ----------------------------------------------------------
-Classes                                      
+Classes
 
 * Criando classes
 * Herança simples
 * Métodos especiais
 ----------------------------------------------------------
-Linguagens de programação                                       
+Linguagens de programação
 
-* História das linguagens de programação                               
-* Paradigmas de programação     
+* História das linguagens de programação
+* Paradigmas de programação
 * Famílias de sintaxe
 ----------------------------------------------------------
-Lispy                                                     
+Lispy
 
-* Introdução ao Scheme (http://norvig.com/lispy.html)     
-* Etapas da compilação                                    
-* Árvore sintática                                         
+* Introdução ao Scheme (http://norvig.com/lispy.html)
+* Etapas da compilação
+* Árvore sintática
 ----------------------------------------------------------
-Interpretador de Scheme                                      
+Interpretador de Scheme
 
 * Analisador sintático completo
-* Ambiente de execução 
+* Ambiente de execução
 * Valores básicos e chamada de funções
 ----------------------------------------------------------
-Interpretando Scheme                                      
+Interpretando Scheme
 
-* Formas especiais da linguagem                    
-* "Açúcares" sintáticos                    
+* Formas especiais da linguagem
+* "Açúcares" sintáticos
 * Criando funções
 ----------------------------------------------------------
-Expressões regulares                                      
+Laboratório de regex
 
-* Ortografia e léxico de uma linguagem                    
-* Linguagens regulares                                    
-* Expressões regulares em Python                          
+* Detecção de padrões
+* Usos de expressões regulares
+* Expressões regulares em ferramentas de código
 ----------------------------------------------------------
-Laboratório de regex: chatbot                             
-                                                          
-* Detecção de padrões                                     
-* Resposta a padrões                                      
-* Usos de expressões regulares e API Python               
+Expressões regulares
+
+* Ortografia e léxico de uma linguagem
+* Linguagens regulares
+* Expressões regulares em Python
 ----------------------------------------------------------
-Análise léxica                                            
-                                                          
-* Tokens                                                  
-* Implementando um analizador léxico                      
-* Analizador léxico                                       
+Análise léxica
+
+* Tokens
+* Implementando um analizador léxico
+* Analizador léxico
 ----------------------------------------------------------
-Léxico de linguagens de programação                       
-                                                          
-* Exemplos em Python, Scheme e outras linguagens                             
-* Definição de tokens                                     
-* Precedência de expressões regulares no tokenizador      
+Léxico de linguagens de programação
+
+* Exemplos em Python, Scheme e outras linguagens
+* Definição de tokens
+* Precedência de expressões regulares no tokenizador
 ----------------------------------------------------------
-Análise sintática                                         
-                                                          
-* Limites de expressões regulares                           
-* Gramática                                               
-* Especificação de regras gramaticais                     
-* Sintaxe vs semântica                                    
+Análise sintática
+
+* Limites de expressões regulares
+* Gramática
+* Especificação de regras gramaticais
+* Sintaxe vs semântica
 ----------------------------------------------------------
-Laboratório de análise sintática: Gerador de lero lero    
-                                                          
-* Formalização de uma gramática                           
-* Produções válidas                                       
-* Gerador de textos aleatórios                            
+Laboratório de análise sintática: Gerador de lero lero
+
+* Formalização de uma gramática
+* Produções válidas
+* Gerador de textos aleatórios
 ----------------------------------------------------------
-Gramáticas livres de contexto                             
-                                                          
-* Regras de produção                                      
-* Lark                                                    
-* Calculadora                                             
+Gramáticas livres de contexto
+
+* Regras de produção
+* Lark
+* Calculadora
 ----------------------------------------------------------
-Laboratório: JSON                                         
-                                                          
-* Gramática como autômato                                 
-* Separação entre a análise léxica e sintática            
-* Implementação do JSON                             
+Laboratório: JSON
+
+* Gramática como autômato
+* Separação entre a análise léxica e sintática
+* Implementação do JSON
 ----------------------------------------------------------
-Árvores sintáticas e representação de código              
-                                                          
-* Árvores concretas e abstratas                           
-* *S-expressions*                                           
-* Classes e *Union Types*                                                 
+Árvores sintáticas e representação de código
+
+* Árvores concretas e abstratas
+* *S-expressions*
+* Classes e *Union Types*
 ----------------------------------------------------------
-Laboratório: Calculadora avançada                         
-                                                          
-* Operadores e expressões                                 
-* Representação intermediária                             
-* Precedência                                             
-* Análise semântica                                       
+Laboratório: Calculadora avançada
+
+* Operadores e expressões
+* Representação intermediária
+* Precedência
+* Análise semântica
 ----------------------------------------------------------
-Gramática do Python                                       
-                                                          
-* Arquivo de gramática                                    
-* Árvore sintática de um código “vivo”                    
+Gramática do Python
+
+* Arquivo de gramática
+* Árvore sintática de um código “vivo”
 * Meta programação
 ----------------------------------------------------------
-Emissão de código no Ox                                        
-                                                          
-* Árvores sintáticas de Python                             
+Emissão de código no Ox
+
+* Árvores sintáticas de Python
 * Criando árvores sintáticas manualmente
 * Objetos proxy
 ----------------------------------------------------------
-Autômatos                                                 
-                                                          
-* Introdução a autômatos                                  
-* Autômato determinístico finito                          
-* Autômato não-determinístico                          
-----------------------------------------------------------
-Construção de Thompson                                                 
-                                                          
-* Autômatos para linguagens regulares
-* Regras básicas e regras de composição                     
-----------------------------------------------------------
-Hierarquia de Chomsky                                     
-                                                          
-* Modelos de computação                                   
-* Tipos de autômatos                                      
-* Hierarquia de linguagens formais                        
-* Máquina de Turing                                       
-----------------------------------------------------------
-Máquinas virtuais                                         
-                                                          
-* Objetivos de compilação                                 
-* Máquina virtual Python                                  
-* Inspeção de Bytcodes                                    
-* Máquina de pilha                                        
-----------------------------------------------------------
-Descida recursiva                                         
-                                                          
-* Tipos atômicos (numerais, strings, etc)                 
-* Símbolos                                                
-* Operadores e delimitadores                              
-----------------------------------------------------------
-Parser LL(1)                                 
+Autômatos
 
-* Construções FIRST e FOLLOW                                                        
+* Introdução a autômatos
+* Autômato determinístico finito
+* Autômato não-determinístico
+----------------------------------------------------------
+Construção de Thompson
+
+* Autômatos para linguagens regulares
+* Regras básicas e regras de composição
+----------------------------------------------------------
+Hierarquia de Chomsky
+
+* Modelos de computação
+* Tipos de autômatos
+* Hierarquia de linguagens formais
+* Máquina de Turing
+----------------------------------------------------------
+Máquinas virtuais
+
+* Objetivos de compilação
+* Máquina virtual Python
+* Inspeção de Bytcodes
+* Máquina de pilha
+----------------------------------------------------------
+Descida recursiva
+
+* Tipos atômicos (numerais, strings, etc)
+* Símbolos
+* Operadores e delimitadores
+----------------------------------------------------------
+Parser LL(1)
+
+* Construções FIRST e FOLLOW
 * Gramáticas sem epsilon
 * Construção da tabela de transição
 * Conflitos na construção
 ----------------------------------------------------------
-Parser LL(1)                                               
+Parser LL(1)
 
 * Gramaticas com epsilon
-* Tradução para Python                                    
+* Tradução para Python
 ----------------------------------------------------------
 Prova Final
 ----------------------------------------------------------
