@@ -1,0 +1,13 @@
+função fibo(n):
+	"""
+	Calcula o n-ésimo número de Fibonacci
+	"""
+
+	se n <= 1:
+		retorna 1
+	senão:
+		retorna fibo(n - 1) + fibo(n - 2)
+
+
+n = int(entrada("n: "))
+imprime("n-ésimo Fibonacci:", fibo(n))
