@@ -34,7 +34,7 @@ Python
 * Identificar algumas funções que podem (opcionalmente ou obrigatoriamente) receber outras funções.
 * Criar pequenas funções para passar para funções de segunda ordem.
 
-## py-pep8: Conhecer boas práticas de estilo de programação
+## py-pep8*: Conhecer boas práticas de estilo de programação
 * Uso de comentários e nomes informativos.
 * Organização do código em funções.
 * Familiaridade com alguma ferramenta como Black, pep8, pylint ou flake8.
@@ -134,8 +134,8 @@ Gramáticas livres de contexto
 * Relacionar regras de produção com o formato de uma árvore sintática concreta.
 * Derivar árvores sintáticas concretas para um texto a partir de uma gramática.
 
-## cfg-ast: Utilizar transformers para criar árvore sintática no Lark 
-* Utilizar herança ou API do Ox para registrar métodos para construir nós da árvore sintática.
+## cfg-ast: Criar árvore sintática 
+* Utilizar transformers do Lark ou outro mecanismo para registrar métodos que constroem nós da árvore sintática.
 * Realizar a transformação de tipos atômicos como números e strings.
 
 ## cfg-reduce: Utilizar transformers para obter resultados a partir da análise sintática 
@@ -169,37 +169,18 @@ Autômatos
 * Entender a propriedade de composição da construção de Thompson.
 * Realizar corretamente a construção de Thompson para expressões regulares arbitrárias.
 
+## nfa-epsilon: Conversão de NFA-e para NFA
+* Compreender que ambos possuem o mesmo poder computacional.
+* Ser capaz de converter NFA-e para NFA sem transições epsilon
+
 ## nfa-dfa: Conversão de NFA para DFA
 * Compreender que ambos possuem o mesmo poder computacional.
 * Realizar a conversão de um NFA no DFA correspondente.indentificar
 * Traduzir autômatos escritos como diagramas para código. 
 
 
-Arquitetura de compiladores e interpretadores
-=============================================
-
-## comp-org: Compreender as etapas tradicionais de análise do código em um compilador
-* Conhecer o papel e função das etapas de análise léxica, análise sintática, análise semântica, otimização e geração de código.
-* Conhecer superficialmente como esse mecanismo funciona em alguma linguagem real e possuir elementos conceituais para comparar estas etapas em diferentes linguagens.
-
-## comp-vs-interp: Compreender as principais diferenças entre um compilador e um interpretador
-* Situar um interpretador no contexto da arquitetura tradicional de compiladores.
-* Compreender a distinção entre um interpretador de árvores sintáticas e uma máquina virtual.
-* Identificar, entre as linguagens de programção mais conhecidas, quais são tradicionalmente interpretadas e quais são compiladas. 
-
-## parser-fmt: Compreender a relevância das técnicas de compiladores no processamento de arquivos.
-* Entender o papel da análise léxica e sintática no processamento de arquivos estruturados.
-* Ler e compreender uma gramática relacionada a um formato de arquivo.
-* Ser capaz de elicitar a gramática associada a formatos simples como JSON e CSV.  
-
-## proj-interp: Implementar um interepretador simples para uma linguagem simples
-* Interpretador para linguagem sintaticamente simples e que preserve a maior parte da semântica do Python ou da linguagem de implementação (ex: Lispy)
-* Linguagem deve conter estruturas de controle básicas (if/while/sequências) ou (condicionais e funções e recursão)
-
-## proj-calc: Implementar um interepretador para DSL com separação explícita entre etapas de análise léxica, sintática e avaliação das árvores sintáticas
-* Linguagem deve implementar operações básicas no seu domínio (ex.: calculadora com as 4 operações, parênteses e chamada de funções)
-* Cada etapa deve estar separada explicitamente no código ou pela organização imposta pela biblioteca de implementação (ex.: Lark)
-* Interpretação do código pode ser feita a partir da árvore sintática.
+Algoritmos de análise sintática
+===============================
 
 ## rd-prog: Implementar gramática simples usando descida recursiva
 * Compreender como mapear regras de produção em chamadas recursivas de funções.
@@ -224,6 +205,29 @@ Arquitetura de compiladores e interpretadores
 * Criar programa capaz de validar uma sentença utilizando o algoritmo LL(1)
 * Implementar programa que retorne a árvore sintática de uma expressão utilizando o LL(1)
 
+
+Arquitetura de compiladores e interpretadores
+=============================================
+
+## comp-org: Compreender as etapas tradicionais de análise do código em um compilador
+* Conhecer o papel e função das etapas de análise léxica, análise sintática, análise semântica, otimização e geração de código.
+* Conhecer superficialmente como esse mecanismo funciona em alguma linguagem real e possuir elementos conceituais para comparar estas etapas em diferentes linguagens.
+
+## comp-vs-interp: Compreender as principais diferenças entre um compilador e um interpretador
+* Situar um interpretador no contexto da arquitetura tradicional de compiladores.
+* Compreender a distinção entre um interpretador de árvores sintáticas e uma máquina virtual.
+* Identificar, entre as linguagens de programção mais conhecidas, quais são tradicionalmente interpretadas e quais são compiladas. 
+
+## parser-fmt: Compreender a relevância das técnicas de compiladores no processamento de arquivos.
+* Entender o papel da análise léxica e sintática no processamento de arquivos estruturados.
+* Ler e compreender uma gramática relacionada a um formato de arquivo.
+* Ser capaz de elicitar a gramática associada a formatos simples como JSON e CSV.  
+
+## proj-calc: Implementar um interepretador para DSL com separação explícita entre etapas de análise léxica, sintática e avaliação das árvores sintáticas
+* Linguagem deve implementar operações básicas no seu domínio (ex.: calculadora com as 4 operações, parênteses e chamada de funções)
+* Cada etapa deve estar separada explicitamente no código ou pela organização imposta pela biblioteca de implementação (ex.: Lark)
+* Interpretação do código pode ser feita a partir da árvore sintática.
+
 ## semantica*: Implementar alguma etapa de análise semântica em projeto de compilador ou interpretador
 * Identificar inconsistência de tipos.
 * OU Identificar bugs e erros de programação comuns em código sintaticamente válido.
@@ -239,8 +243,9 @@ Projeto de programação
 * Pode ser uma linguagem original ou a implementação de uma linguagem já existente.
 
 ## proj-interp*: Criar interpretador de linguagem de domínio específico
-* Implementar um compilador
-* 
+* Interpretador para linguagem sintaticamente simples e que preserve a maior parte da semântica do Python ou da linguagem de implementação (ex: Lispy)
+* Linguagem deve conter estruturas de controle básicas (if/while/sequências) ou (condicionais e funções e recursão)
+ 
 ## proj-vm*: Criar interpretador de linguagem de domínio específico com arquitetura de máquina virtual
 * Implementar o compilador para bytecodes (ou outra representação binária).
 * Criar interpretador da linguagem de bytecode.  
@@ -261,3 +266,6 @@ Genérico
 
 ## conteudo-texto*: Produziu material com qualidade de escrita
 * Criou material de estudo, ou material para o projeto final com ótima qualidade de escrita. 
+
+## tutor*: Produziu material didático
+* Criou material de estudo na forma de texto, vídeo ou outro formato eletrônico.
