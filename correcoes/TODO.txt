@@ -3,17 +3,18 @@
   - Romulo Souza (150147601)
   - Renan (160143403)
 
-[ ] Lispy-parser
+[X] Lispy-parser
   - Algumas notas do trabalho (exemplo 160120918) não foram contabilizadas
 
-[ ] Trabalhos corrigidos manualmente 
+[x] Checkio
+  - Renan renan60 (160143403)
+  - Rômulo Vinícius de Souza (150147601) 
+
+[x] Lispy-lexer
+  - Baixar planilha e corrigir novamente 
+
+[x] Trabalhos corrigidos manualmente 
   - Sara Silva (autômatos, 160144752)
   - Jose Aquiles (autômatos, 160010331)
   - Matheus (thompson em /assets/; parser-fmt, 150141220)
 
-[ ] Checkio
-  - Renan renan60 (160143403)
-  - Rômulo Vinícius de Souza (150147601) 
-
-[ ] Lispy-lexer
-  - Baixar planilha e corrigir novamente 

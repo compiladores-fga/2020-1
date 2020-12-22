@@ -29,7 +29,8 @@ for df in dfs:
         db[str(rec.pop('id'))].update({k: v for k, v in rec.items() if v is True})
 
 data: pd.DataFrame = pd.DataFrame.from_dict(db).fillna(False).T
-data = data.sort_index()
+data = data.sort_index(0)
+data = data.sort_index(1)
 data['grade'] = data.sum(1)
 data = data.replace({True: 1, False: 0})
 
