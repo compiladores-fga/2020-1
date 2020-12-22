@@ -1,0 +1,19 @@
+[x] Não incluiu notas do calc-parser
+  - Sara Silva (160144752)
+  - Romulo Souza (150147601)
+  - Renan (160143403)
+
+[ ] Lispy-parser
+  - Algumas notas do trabalho (exemplo 160120918) não foram contabilizadas
+
+[ ] Trabalhos corrigidos manualmente 
+  - Sara Silva (autômatos, 160144752)
+  - Jose Aquiles (autômatos, 160010331)
+  - Matheus (thompson em /assets/; parser-fmt, 150141220)
+
+[ ] Checkio
+  - Renan renan60 (160143403)
+  - Rômulo Vinícius de Souza (150147601) 
+
+[ ] Lispy-lexer
+  - Baixar planilha e corrigir novamente 
